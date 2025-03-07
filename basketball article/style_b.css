@@ -48,7 +48,10 @@ body {
   margin-top: 0; /* Remove top margin from the heading (chatgpt) */
 }
 
-  
+a {
+  color:aquamarine
+}
+
   /* responsive design */
   #content {
     width: 50%;
@@ -59,8 +62,4 @@ body {
     #content {
       width: 100%;
     }
-  }
-
-  a {
-    color:aquamarine
   }
