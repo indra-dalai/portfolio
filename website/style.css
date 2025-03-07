@@ -1,64 +1,74 @@
-
 body {
-    padding-left: 15%;
-    padding-right: 15%; /* margin and padding is different --- margin adds space
-     outside the element whereas padding does it from within */ 
-    background-color: #Ffffff;
-  }
+  background-color: #ffffff;
+  font-family: Helvetica;
+}
 
-  /* NAVIGATION BAR */ 
-  .navbar {
-    text-align: center;  
-    padding-bottom: 50px;  
+/* Content container */
+#content {
+  width: 100%;
+  margin: auto;
+}
+
+/* Navigation bar */ 
+.navbar {
+  text-align: center;  
+  padding-bottom: 50px;  
+}
+
+.navbar a {
+  font-size: 20px;
+  font-family: Helvetica;
+  color: #E55812; 
+}
+
+h1 {
+  font-size: 20px;
+  color: #2d5397;
+  font-family: Helvetica;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+p {
+  padding-top: 20px;
+}
+
+a {
+  color: #E55812; /* for hyperlinks */
+}
+
+img {
+  margin-right: 20px;
+  max-width: 100%;  
+  height: auto;
+  border: solid #E55812;
+}
+
+/* Responsive design */
+/* Desktop styles */
+@media screen and (min-width: 768px) {
+  body {
+    padding-left: 15%;
+    padding-right: 15%;
   }
   
   .navbar a {
-    margin: 95px;  
-    font-size: 20px;
-    font-family: Helvetica;
-    color: #E55812; 
+    margin: 95px;
+  }
+}
+
+/* Mobile styles */
+@media screen and (max-width: 767px) {
+  body {
+    padding-left: 5%;
+    padding-right: 5%;
   }
   
-  h1 {
-    font-size: 20px;
-    /* whereas em makes font n times bigger --- makes it easier to keep sizes relative to
-     each other but for now we r gonna use px */
-    color: #2d5397;
-    font-family: Helvetica;
-    font-weight: 400;
-    line-height: 26px;
+  .navbar a {
+    margin: 10px;
   }
-
-  p {
-    padding-top: 20px;
-  }
-
-
-  a {
-    color: #E55812; /* for hyperlinks */
-  }
-
-
   
   img {
-    margin: 0; /* Remove auto margins */
-    display: block;
-    max-width: 100%; /* Ensure it scales properly */
-    height: auto;
-    border: solid #E55812;
+    margin-right: 0;
   }
-
-   /* responsive design */
-   #content {
-    width: 100%;
-    margin: auto;
-  }
-  
-  @media (orientation: portrait) {
-    #content {
-      width: 100%;
-    }
-  }
-
-  
-
+}
