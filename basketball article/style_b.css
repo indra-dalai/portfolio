@@ -1,0 +1,59 @@
+body {
+    padding-left: 25%;
+    padding-right: 25%;
+    background-color: #f5f5dc;
+  }
+  
+  h1 {
+    font-size: 3em;
+    /* em makes font 3 times bigger --- makes it easier to keep sizes relative to each other */
+    color: #eb9805;
+    font-family: Helvetica;
+    margin-bottom: -10px;
+    /* margin and padding is different --- margin adds space outside the element whereas padding does it from within   */
+  }
+  
+  h2 {
+    font-size: 1.6em;
+    color: blue;
+    font-family: Helvetica;
+    margin-top: 25px;
+  }
+  
+  #byline {
+    font-size: 1.1em;
+  }
+  
+  p {
+    font-size: 1.1em;
+    line-height: 1.3em;
+    padding-bottom: 5px;
+  }
+  
+  .img-container {
+    width: 100%;
+  }
+  
+  img {
+    margin: auto;
+    display: block;
+  }
+  
+  .cutline {
+    font-size: 15px;
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+  
+  /* responsive design */
+  #content {
+    width: 50%;
+    margin: auto;
+  }
+  
+  @media (orientation: portrait) {
+    #content {
+      width: 100%;
+    }
+  }

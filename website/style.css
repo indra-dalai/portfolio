@@ -30,10 +30,8 @@ body {
     line-height: 26px;
   }
 
-  #heading_other {
-    margin-top: 70px;
-    /* i created two distinct ids for the different elements so that
-     i could control the different spacing btu im not sure if this was the most efficient way... */
+  p {
+    padding-top: 20px;
   }
 
 
