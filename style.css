@@ -1,0 +1,46 @@
+
+body {
+    padding-left: 15%;
+    padding-right: 15%; /* margin and padding is different --- margin adds space
+     outside the element whereas padding does it from within */ 
+    background-color: #Ffffff;
+  }
+
+  /* NAVIGATION BAR */ 
+  .navbar {
+    text-align: center;  
+    padding-bottom: 50px;  
+  }
+  
+  .navbar a {
+    margin: 95px;  
+    font-size: 20px;
+    font-family: Helvetica;
+    color: #E55812; 
+  }
+  
+  
+  h1 {
+    font-size: 20px;
+    /* whereas em makes font n times bigger --- makes it easier to keep sizes relative to
+     each other but for now we r gonna use px */
+    color: #2d5397;
+    font-family: Helvetica;
+    font-weight: 400;
+    line-height: 26px;
+  }
+
+  #heading_other {
+    margin-top: 70px;
+    /* i created two distinct ids for the different elements so that
+     i could control the different spacing btu im not sure if this was the most efficient way... */
+  }
+
+
+  a {
+    color: #E55812; /* for hyperlinks */
+  }
+
+
+  
+
