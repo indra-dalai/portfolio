@@ -19,7 +19,6 @@ body {
     color: #E55812; 
   }
   
-  
   h1 {
     font-size: 20px;
     /* whereas em makes font n times bigger --- makes it easier to keep sizes relative to
@@ -39,6 +38,15 @@ body {
     color: #E55812; /* for hyperlinks */
   }
 
+
+  
+  img {
+    margin: 0; /* Remove auto margins */
+    display: block;
+    max-width: 100%; /* Ensure it scales properly */
+    height: auto;
+    border: solid #E55812;
+  }
 
    /* responsive design */
    #content {
